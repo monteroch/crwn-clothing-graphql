@@ -6,6 +6,7 @@ import './collection-item.styles.scss';
 
 const CollectionItem = ({ item, addItem }) => {
   const { name, price, imageUrl } = item;
+  console.log("ADD ITEM: ", addItem);
 
   return (
     <div className='collection-item'>
